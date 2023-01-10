@@ -1,4 +1,4 @@
-# ValTech IPC and Autoware.Universe Setup
+# IPC and Autoware.Universe Setup
 Installation scripts for configuring Tome IPC computer with Autoware.Universe
 
 # Environment 
