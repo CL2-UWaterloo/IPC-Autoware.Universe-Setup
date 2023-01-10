@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 set -eu
 
-# Copyright ValTech 2023
 # Licensed under the Apache License, Version 2.0
 #
 # REF: https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html
