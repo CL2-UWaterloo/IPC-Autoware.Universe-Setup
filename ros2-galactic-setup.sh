@@ -10,7 +10,7 @@ set -eu
 
 CHOOSE_ROS_DISTRO=galactic
 INSTALL_PACKAGE=desktop
-TARGET_OS=focal
+TARGET_OS=21.04
 
 # Check OS version
 if ! which lsb_release > /dev/null ; then
@@ -18,11 +18,11 @@ if ! which lsb_release > /dev/null ; then
 	sudo apt-get install -y curl lsb-release
 fi
 
-if [[ "$(lsb_release -sc)" == "$TARGET_OS" ]]; then
+if [[ "$(lsb_release -sr)" == "$TARGET_OS" ]]; then
 	echo "OS Check Passed"
 else
 	printf '\033[33m%s\033[m\n' "=================================================="
-	printf '\033[33m%s\033[m\n' "ERROR: This OS (version: $(lsb_release -sc)) is not supported"
+	printf '\033[33m%s\033[m\n' "ERROR: This OS (version: $(lsb_release -sr)) is not supported"
 	printf '\033[33m%s\033[m\n' "=================================================="
 	exit 1
 fi
