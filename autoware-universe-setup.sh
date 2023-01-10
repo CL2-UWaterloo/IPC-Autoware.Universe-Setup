@@ -8,7 +8,7 @@ set -eu
 # source: https://autowarefoundation.github.io/autoware-documentation/galactic/installation/autoware/source-installation/
 
 ROS_DISTRO=galactic
-TARGET_OS=22.04
+TARGET_OS=20.04
 BRANCH=galactic
 
 # Check OS version
