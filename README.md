@@ -1,5 +1,5 @@
 # IPC and Autoware.Universe Setup
-Installation scripts for configuring Tome IPC computer with Autoware.Universe
+Installation scripts for configuring an IPC computer with Autoware.Universe
 
 # Environment 
 |Ubuntu|Ros2|Autoware|Nvidia Driver|CUDA Version|
