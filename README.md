@@ -11,7 +11,7 @@ Installation scripts for configuring Tome IPC computer with Autoware.Universe
 |:---:|:---:|:---:|
 |8 cores|16 GB|NVIDIA 4GB RAM|
 
-|| GPU is not required to run basic functionality, it is mandatory to enable the following neural network related functions:
+## GPU is not required to run basic functionality, it is mandatory to enable the following neural network related functions:
 * LiDAR based object detection
 * Camera based object detection
 * Traffic light detection and classification
