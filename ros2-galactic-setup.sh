@@ -10,7 +10,7 @@ set -eu
 
 CHOOSE_ROS_DISTRO=galactic
 INSTALL_PACKAGE=desktop
-TARGET_OS=21.04
+TARGET_OS=20.04
 
 # Check OS version
 if ! which lsb_release > /dev/null ; then
